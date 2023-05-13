@@ -28,4 +28,13 @@ class ExcelToJsonTest {
             e.printStackTrace();
         }
     }
+
+    @Test
+    void exportCSVFileIncludeCombined() {
+        try {
+            excelToJson.exportCSVFileIncludeCombined();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 }
